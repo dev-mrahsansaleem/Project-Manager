@@ -46,5 +46,10 @@ namespace ProjectManger
             HttpContext.Current.Session.Abandon();
             Response.Redirect("HomePage.aspx");
         }
+
+        protected void LinkEvaluation_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Evaluation.aspx");
+        }
     }
 }

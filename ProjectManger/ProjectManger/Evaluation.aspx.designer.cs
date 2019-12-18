@@ -10,87 +10,114 @@
 namespace ProjectManger {
     
     
-    public partial class PMS {
+    public partial class Evaluation {
         
         /// <summary>
-        /// form1 control.
+        /// dpStudentname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.DropDownList dpStudentname;
         
         /// <summary>
-        /// lblUserLogin control.
+        /// students control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUserLogin;
+        protected global::System.Web.UI.WebControls.SqlDataSource students;
         
         /// <summary>
-        /// linkTypes control.
+        /// txttotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkTypes;
+        protected global::System.Web.UI.WebControls.TextBox txttotal;
         
         /// <summary>
-        /// LinkProjects control.
+        /// txtobtain control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkProjects;
+        protected global::System.Web.UI.WebControls.TextBox txtobtain;
         
         /// <summary>
-        /// LinkGroups control.
+        /// txtweight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkGroups;
+        protected global::System.Web.UI.WebControls.TextBox txtweight;
         
         /// <summary>
-        /// LinkUsers control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkUsers;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
         
         /// <summary>
-        /// LinkEvaluation control.
+        /// lblMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkEvaluation;
+        protected global::System.Web.UI.WebControls.Label lblMsg;
         
         /// <summary>
-        /// LinkLogout control.
+        /// btnPrint control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkLogout;
+        protected global::System.Web.UI.WebControls.Button btnPrint;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// panelpdf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Panel panelpdf;
+        
+        /// <summary>
+        /// lbltime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbltime;
+        
+        /// <summary>
+        /// gridviewData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gridviewData;
+        
+        /// <summary>
+        /// griddata control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource griddata;
     }
 }

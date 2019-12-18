@@ -39,14 +39,10 @@ namespace ProjectManger
                             if (txtUserName.Text.Trim() != "")
                             {
                                 sqlcom.Parameters.AddWithValue("@UType", dbUserType.SelectedItem.Text.Trim());
-                                //sqlcom.Parameters.AddWithValue("@Uproject", dbUserProject.SelectedItem.Text.Trim());
+                                sqlcom.Parameters.AddWithValue("@Uproject", txtUserProject.Text.Trim());
                                 sqlcom.ExecuteNonQuery();
                                 sqlCon.Close();
-
-
-                                
-
-
+                              
                                 lblMsg.ForeColor = System.Drawing.Color.Green;
                                 lblMsg.Text = txtUserName.Text + " is added successfully";
                                 //reset
