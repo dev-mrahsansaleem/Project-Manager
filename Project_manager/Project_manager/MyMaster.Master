@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMaster.master.cs" Inherits="Project_manager.MyMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 204px;
+        }
+        .auto-style2 {
+            width: 747px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <header class="auto-style1" style="align-content: center; margin: 10px auto; font-size: 30px"><strong>Poject Manager</strong></header>
+        <div class="auto-style2" style="margin: 10px auto;">
+            <asp:LinkButton ID="LinkButton1" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton1_Click" ToolTip="">Add Student/Teacher Page</asp:LinkButton><span> -> </span>
+            <asp:LinkButton ID="LinkButton2" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton2_Click" ToolTip="">Add Projects Page</asp:LinkButton><span> -> </span>
+            <asp:LinkButton ID="LinkButton3" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton3_Click" ToolTip="">Groups Page</asp:LinkButton><span> -> </span>
+            <asp:LinkButton ID="LinkButton4" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton4_Click" ToolTip="">Evaluation Page</asp:LinkButton><span> -> </span>
+            <asp:LinkButton ID="LinkButton5" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton5_Click" ToolTip="">Result Page</asp:LinkButton><span> -> </span>
+            <asp:LinkButton ID="LinkButton6" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="#CCCCCC" OnClick="LinkButton6_Click" ToolTip="">Logout</asp:LinkButton>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
